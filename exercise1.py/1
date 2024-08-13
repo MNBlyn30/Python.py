@@ -1,0 +1,31 @@
+a = int(8)
+b = int(10)
+c = int(12)
+d = int(18)
+
+
+iter = a
+iter**= 2
+print(iter)
+
+n = (-3, '+', iter, '=', -3+iter)
+print(n)
+
+n = (61, '*', b, '=', 61*b)
+print(n)
+
+iter = 2
+iter**= 3
+print(iter)
+
+n = (610, '-', 8, '=', 610-8)
+print(n)
+
+n = (2, '*', d, '=', 2*d)
+print(n)
+
+n = (c, '-', 36, '=', c-36)
+print(n)
+
+res = (602, '//', -24, '=', 602//-24)
+print(res)
